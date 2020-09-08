@@ -1,0 +1,31 @@
+.main {
+	background: #eee;
+	border-radius: 5px;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+	text-align: center;
+}
+
+.image {
+	background: white;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.img1 {
+	width: 60%;
+	height: 60%;
+}
+ 		
+ 	ul {
+	max-width: 550px;
+	margin: 0 auto 50px auto;
+	text-align: left;
+	line-height: 1.6;
+}
+
+li {
+  	margin: 16px 0;
+}
