@@ -1,0 +1,63 @@
+body {
+	background-image: linear-gradient(29deg, #eeaeca, #94bbe9);
+	font-family: 'Varela Round', sans-serif;
+}
+
+h1, h3 {
+	text-align: center;
+	color: white;
+	line-height: 10px;
+}
+
+div.main {
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 10%;
+}
+
+div.content {
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	text-align: center;
+	padding: 20px;
+	line-height: 50px;
+}
+
+input, select {
+	border-radius: 4px;
+	border: 0px;
+	width: 100%;
+
+}
+
+label {
+	display: flex;
+	/*align-items: center;*/
+	font-size: 1.125rem;
+}
+
+.form-control {
+	width: 100%;
+	height: 2.375rem;
+}
+
+		
+label {
+	margin-bottom: -15px;
+}
+
+.question {
+	text-align: left;
+	align-content: left;
+}
+
+.input-radio {
+	/*display: inline-block;*/
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  margin-right: 90%;
+}
+
+.recommend {
+	margin-right: 90%;
+}

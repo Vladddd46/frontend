@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Survey Form</title>
+</head>
+
+<body>
+	<div class="main">
+		<h1>Survey Form</h1>
+		<h3>Please fill the form</h3>
+		<div class="content">
+			<form>
+				<div class="question">
+					<label for="name">Name</label>
+					<input class="form-control" id="name" type="text" placeholder="Enter your name" required>
+				</div>
+
+				<div class="question">
+					<label for="email">Email</label>
+					<input class="form-control" id="email" type="email" placeholder="Enter your email" required>
+				</div>
+
+				<div class="question">
+					<label for="age">Age (optional)</label>
+					<input class="form-control" id="age" type="number" min="10" max="100" placeholder="Enter your age">
+				</div>
+
+				<div class="question">
+					<label for="job">Which option best describes your current role?</label>
+					 <select id="dropdown" name="role" class="form-control" required>
+				        <option disabled selected value>Select current role</option>
+				        <option value="student">Student</option>
+				        <option value="job">Full Time Job</option>
+				        <option value="learner">Full Time Learner</option>
+				        <option value="prefer_not_to_say">Prefer not to say</option>
+				        <option value="other">Other</option>
+			      	</select>
+				</div>
+
+				<div class="question">
+					<p>Would you recommend [name] to a friend?</p>
+
+					<div class="recommend">
+					<label>
+			        <input
+			          name="user-recommend"
+			          value="definitely"
+			          type="radio"
+			          class="input-radio"
+			          checked
+			        />Definitely</label>
+				    
+				    <label>
+				    <input
+				        name="user-recommend"
+				        value="maybe"
+				        type="radio"
+				        class="input-radio"
+				    />Maybe</label>
+
+				    <label>
+				    <input
+				        name="user-recommend"
+				        value="not-sure"
+				        type="radio"
+				        class="input-radio"
+				    />Not sure</label>
+					</div>
+				</div>
+
+			</form>
+		</div>
+	</div>
+</body>
+</html>
