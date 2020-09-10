@@ -2,11 +2,12 @@ body {
 	/*background-image: linear-gradient(29deg, #eeaeca, #94bbe9);*/
 	background-image: linear-gradient(
       115deg,
-      rgba(58, 58, 158, 0.8),
-      rgba(136, 136, 206, 0.7)
+      rgba(238, 174, 202, 0.8),
+      rgba(148, 187, 233, 0.7)
     ), url(../media/background.jpg);
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat:no-repeat;
+    background-attachment: scroll;
 	font-family: 'Varela Round', sans-serif;
 	font-size: 1.125rem;
 }
@@ -16,18 +17,22 @@ body {
 	color: white;
 }
 
-
-
+/*
+ * Determines the position of 
+ * main content element.
+ */
 .main {
 	margin-left: 25%;
 	margin-right: 25%;
 	margin-top: 5%;
 }
 
-div.content {
+/*
+ * Creates black box in the centre of page.
+ */
+.content {
 	background-color: rgba(0, 0, 0, 0.2);
 	border-radius: 5px;
-	text-align: center;
 	padding: 20px;
 	line-height: 50px;
 }
@@ -35,37 +40,28 @@ div.content {
 input, select {
 	border-radius: 4px;
 	border: 0px;
-	width: 100%;
-
+	width: 110%;
 }
 
 label {
 	display: flex;
-	/*align-items: center;*/
 }
 
 .form-control {
 	width: 100%;
 	height: 2.375rem;
 }
-
 		
 label {
 	margin-bottom: -15px;
 }
 
-.question {
-	text-align: left;
-	align-content: left;
+.recommend {
+	margin-right: 90%;
 }
 
 .input-radio {
-	/*display: inline-block;*/
-  min-height: 1.25rem;
-  min-width: 1.25rem;
-  margin-right: 90%;
-}
-
-.recommend {
-	margin-right: 90%;
+  display: inline-block;
+  min-height: 1rem;
+  min-width: 1rem;
 }
