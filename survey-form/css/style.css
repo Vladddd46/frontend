@@ -37,11 +37,9 @@ body {
 	line-height: 50px;
 }
 
-
 label {
 	display: flex;
 	line-height: 25px;
-
 }
 
 .form-control {
@@ -49,11 +47,6 @@ label {
 	height: 2.375rem;
 	border-radius: 4px;
 	border: 0px;
-}
-
-.recommend {
-	margin-left: 0px;
-	margin-bottom: 0px;
 }
 
 .radio-btns-container{
