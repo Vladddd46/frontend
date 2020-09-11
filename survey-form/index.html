@@ -7,6 +7,8 @@
 	<title>Survey Form</title>
 </head>
 
+
+
 <body>
 	<div class="main">
 
@@ -45,36 +47,87 @@
 				</div>
 
 				<div class="question">
-					<p>Would you recommend [name] to a friend?</p>
-
-					<div class="recommend">
-					<label>
-			        <input
-			          name="user-recommend"
-			          value="definitely"
-			          type="radio"
-			          class="input-radio"
-			          checked
-			        />Definitely</label>
-				    
-				    <label>
-				    <input
-				        name="user-recommend"
-				        value="maybe"
-				        type="radio"
-				        class="input-radio"
-				    />Maybe</label>
-
-				    <label>
-				    <input
-				        name="user-recommend"
-				        value="not-sure"
-				        type="radio"
-				        class="input-radio"
-				    />Not sure</label>
+					<label>Would you recommend [name] to a friend?</label>
+					<div class="radio-btns-container">
+						<div class="radio-btn">
+							<input  class="recommend" id="recommend" type="radio" name="user-recommend"> Definitely
+						</div>
+						<div class="radio-btn">
+							<input  class="recommend" id="recommend" type="radio" name="user-recommend"> Maybe
+						</div>
+						<div class="radio-btn">
+							<input  class="recommend" id="recommend" type="radio" name="user-recommend"> Not sure
+						</div>
 					</div>
 				</div>
 
+				<div class="question">
+			        <label>What is your favorite feature of [name]?</label>
+			      	<select id="most-like" name="mostLike" class="form-control" required>
+				        <option disabled selected value>Select an option</option>
+				        <option value="feature1">feature1</option>
+				        <option value="feature2">feature2</option>
+				        <option value="feature3">feature3</option>
+				        <option value="feature4">feature4</option>
+			      	</select>
+   				</div>
+
+   				<div class="question">
+				     <label>
+				       What would you like to see improved?
+				     </label>
+
+				    <label>
+				      	<input
+				          name="prefer"
+				          value="Thing1"
+				          type="checkbox"
+				          class="input-checkbox"
+				        /> Thing1
+				    </label>
+
+				    <label>
+				      	<input
+				          name="prefer"
+				          value="Thing2"
+				          type="checkbox"
+				          class="input-checkbox"
+				        /> Thing2
+				    </label>
+
+				    <label>
+				      	<input
+				          name="prefer"
+				          value="Thing3"
+				          type="checkbox"
+				          class="input-checkbox"
+				        /> Thing3
+				    </label>
+
+				    <label>
+				      	<input
+				          name="prefer"
+				          value="Thing4"
+				          type="checkbox"
+				          class="input-checkbox"
+				        /> Thing4
+				    </label>
+    			</div>
+
+    			<div class="question">
+      				<label>Any comments or suggestions?</label>
+      				<textarea
+			        id="comments"
+			        class="input-textarea"
+			        name="comment"
+			        placeholder="Enter your comment here..."></textarea>
+    			</div>
+
+			    <div class="form-group">
+				    <button type="submit" id="submit" class="submit-button">
+				    	Submit
+				    </button>
+			    </div>
 			</form>
 		</div>
 	</div>
